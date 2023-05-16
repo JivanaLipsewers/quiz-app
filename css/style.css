@@ -23,7 +23,7 @@ main {
 .header {
     display: flex;
     color: #fff;
-    background-color: #000;
+    background-color: darkblue;
     height: 120px;
     width: 100%;
     justify-content: center;
@@ -36,7 +36,8 @@ button {
     background-color: #000;
     border-color: #000;
     border-radius: 1em;
-    padding: 12px;  
+    padding: 12px;
+
 }
 
 .card {
@@ -78,8 +79,22 @@ button {
 }
 
 .navigation {
+    list-style: none;
     display: flex;
-    background-color: #fff;
     width: 100%;
+    background-color: #fff;
+    align-items: center;
 }
 
+.navigation_item {
+    flex-grow: 1;
+    display: flex;
+    background-color: #fff;
+    height: 42px;
+    margin: 20px;
+}
+
+.navigation_item >img {
+    width: 100%;
+    height: 100%;
+}
